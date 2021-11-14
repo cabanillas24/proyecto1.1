@@ -1,0 +1,169 @@
+body{
+	font-family: gothic;
+	color:black;
+	color-background:white;
+	font-size: 1.2rem;
+	line-height: 1.4em;
+	margin: 0;
+}
+header nav {
+	background:rgba(128, 0, 128, .8);
+	margin-bottom:50px;
+	height: 70px;
+	padding:17px;
+}
+@font-face{
+	font-family: gothic;
+	src: url(../css/GOTHIC.ttf);
+}
+
+
+.logo{		/*CLASE PARA EL LOGO DE LA BARRA DE NAVEGACION*/
+	width: 50px;
+}
+
+
+.bottonh{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    -webkit-text-fill-color: white;
+    font-family: gothic;
+}
+
+
+.mid{									/*CLASE PARA PERSONALIZAR EL CONTAINER*/
+	background-color: #e5e5e5 !important;
+	border-radius: 20px;
+    padding-bottom: 65px;
+}
+
+
+.mid1{
+	margin-left: 39%;
+	font-size: 60px !important;
+    height: 100px;
+}
+
+
+.letras{
+	font-size: 30px;
+	width: 100%;
+    -webkit-text-stroke: 1.3px black;
+}
+.letrasP{
+    font-size: 30px;
+    width: 100%;
+}
+
+
+
+.final{
+	background: #202020 !important;
+	border-radius: 0px !important;
+    margin-top: 200px;
+    margin-top: 20%;
+}
+
+
+.logout{			/*CLASE PARA EL BOTON LOGIN DE LA BARRA DE NAVEGACION*/
+    padding: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    -webkit-text-fill-color: white;
+    font-family: gothic;
+    float: right;
+}
+
+.botton1{				/*CLASE PARA EL BOTON DE ATRAS*/
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 300;
+    font-size: 27px;
+    color: #f7f7f7;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    float: left;
+    -webkit-text-fill-color: black;
+    font-family: gothic;
+}
+.botton1:hover{
+    background-color: #c4c4c4;
+    text-decoration: none;
+}
+
+
+.botton2{				/*CLASE PARA EL BOTON DE ELIMINAR*/
+    text-decoration: none;
+    padding: px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 300;
+    font-size: 25px;
+    color: #f7f7f7;
+    background-color: #f7f7f7;
+    border-radius: 15px;
+    float: right;
+    -webkit-text-fill-color: red;
+    font-family: gothic;
+    margin: 5px;
+}
+.botton2:hover{
+    background-color: rgba(255, 166, 166,0.5);
+    text-decoration: none;
+}
+
+.tabla{
+    margin-left: 10%;
+}
+.zoom{
+    transition: 0.3s ease;
+}
+
+.zoom:hover{
+    -webkit-transform : scale(0.96);
+    -webkit-transition: .3s ease;
+}
+
+.botton3{        
+    text-decoration: none;
+    padding: px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 300;
+    font-size: 25px;
+    color: #f7f7f7;
+    background-color: #f7f7f7;
+    border-radius: 15px;
+    float: right;
+    -webkit-text-fill-color: #008AFF;
+    font-family: gothic;
+    margin: 5px;
+}
+.botton3:hover{
+    background-color: rgba(0, 138, 255,0.5);
+    text-decoration: none;
+}
+.botton4{               /*CLASE PARA EL BOTON DE ATRAS*/
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 300;
+    font-size: 27px;
+    color: #f7f7f7;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    float: left;
+    -webkit-text-fill-color: black;
+    font-family: gothic;
+    margin-right: 150px;
+}
+.botton4:hover{
+    background-color: #c4c4c4;
+    text-decoration: none;
+}

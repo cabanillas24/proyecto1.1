@@ -1,0 +1,110 @@
+@font-face{
+	font-family: gothic;
+	src: url(../css/GOTHIC.ttf);
+}								/*CLASE PARA LA FUENTE*/
+.fontf{					
+	font-family: gothic;
+}
+header nav {			/*CLASE PARA LA BARRA DE NAVEGACION*/
+	background:rgba(128, 0, 128, .8);
+	margin-bottom:30px;
+	height: 70px;
+	padding:17px;
+}
+
+
+.bottonh{		/*CLASE PARA LOS BOTONES DE LA BARRA DE NAVEGACION*/
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    -webkit-text-fill-color: white;
+    font-family: gothic;
+}
+.logout{      /*CLASE PARA EL BOTON LOGIN DE LA BARRA DE NAVEGACION*/
+    padding: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    -webkit-text-fill-color: white;
+    font-family: gothic;
+    float: right;
+}
+.logo{		/*CLASE PARA EL LOGO DE LA BARRA DE NAVEGACION*/
+	width: 50px;
+}
+.final{
+	background: #202020 !important;
+	border-radius: 0px !important;
+    margin-top: 550px;
+}
+/*contenedor gris*/
+#container {
+width: 37%;
+margin: 0px auto;
+background-color: #E0E0E0;
+border-radius: 20px;
+
+}
+/*welcome*/
+#welcome{
+	text-align: center;
+}
+
+/*margen para los textos gris*/
+
+.form-group{
+	margin: 20px;
+	font-family: gothic, serif;
+	color:black;
+}
+
+/*correo y password barras*/
+#correo{
+width: 83%;
+}
+#password{
+width: 80%;
+}
+
+
+/*botones*/
+#sign{
+width: 20%;
+height: 25%; 
+background-color: white;
+font-color:black;
+font-size: 20px;
+border-radius: 10px;
+}
+#sign:hover{
+	background-color: #c4c4c4;
+    text-decoration: none;
+}
+
+#log{
+float:right;
+width: 20%;
+background-color:white;
+font-color:black;
+border-radius: 10px;
+font-size: 20px;
+}
+#log:hover{
+	background-color: rgba(75, 194, 255, 0.6);
+    text-decoration: none;
+}
+
+.c1{
+	margin-top: 30px;
+	margin-left: 180px;
+}
+.c2{
+	margin-left: 162px;
+	margin-bottom: 20px;
+}
+
+.btn{
+	-webkit-text-fill-color: black;
+	margin-bottom: 30px;
+}

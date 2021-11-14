@@ -1,0 +1,189 @@
+/*LETRA Y FONDO*/
+body{
+	font-family: gothic, serif;
+	color:black;
+	color-background:white;
+	margin: 0;
+}
+/*navbar*/
+
+/*icono y texto del perfil*/
+#your{
+	text-align: center;
+}
+
+#perfil {
+  font-size: 64px ;
+width: 45%;
+
+display:block;
+  margin-left: auto;
+  margin-right: auto;
+} 
+/*botn perfil*/
+#iconp{
+display:block;
+margin-left: auto;
+margin-right: auto;
+width: 30%;
+font-size: 100px;
+background-color: white;
+border-color: white;
+-webkit-text-fill-color: #acacac;
+}
+/*container gris*/
+#container1{
+width: 45%;
+background-color: #E0E0E0;
+border-radius: 20px;
+margin: 0px auto;
+text-align: center;
+}
+#p{
+margin:0px auto;
+}
+/*botones */
+#salir{
+width:30%;
+height:50%; 
+margin-left:1px;
+margin-right: 1px;
+display: inline-block;
+background-color: #f7f7f7;
+-webkit-text-fill-color: #acacac;
+border: 0px;
+transition: .5s ease;
+}
+
+.caca{
+	-webkit-text-fill-color: black;
+}
+
+#modificar{
+width:30%;
+height:50%; 
+margin-left: auto;
+margin-right: auto;
+display: inline-block;
+background-color: #f7f7f7;
+-webkit-text-fill-color: #acacac;
+border: 0px;
+transition: .5s ease;
+
+
+}
+
+#citas{
+	width:30%;
+height:50%; 
+margin-left: auto;
+margin-right: auto;
+display: inline-block;
+background-color: #f7f7f7;
+-webkit-text-fill-color: #acacac;
+border: 0px;
+transition: .5s ease;
+
+}
+/*tama;o de iconos*/
+#salir span {
+	font-size: 100px
+
+}
+#modificar span{
+	font-size: 100px;
+	padding-left: 20px; 
+
+}
+#citas span{
+	font-size: 100px
+	
+}
+
+
+header nav {            /*CLASE PARA LA BARRA DE NAVEGACION*/
+    background:rgba(128, 0, 128, .8);
+    margin-bottom:30px;
+    height: 70px;
+    padding:17px;
+}
+@font-face{
+    font-family: gothic;
+    src: url(../css/GOTHIC.ttf);
+}                               /*CLASE PARA LA FUENTE*/
+.fontf{                 
+    font-family: gothic;
+}
+
+
+
+.bottonh{       /*CLASE PARA LOS BOTONES DE LA BARRA DE NAVEGACION*/
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    -webkit-text-fill-color: white;
+    font-family: gothic;
+}
+.logout{      /*CLASE PARA EL BOTON LOGIN DE LA BARRA DE NAVEGACION*/
+    padding: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    -webkit-text-fill-color: white;
+    font-family: gothic;
+    float: right;
+}
+.logo{      /*CLASE PARA EL LOGO DE LA BARRA DE NAVEGACION*/
+    width: 50px;
+}
+.final{
+    background: #202020 !important;
+    border-radius: 0px !important;
+}
+
+#salir:hover{
+	-webkit-transform : scale(.93);
+    -webkit-transition: .5s ease;
+    background-color: rgba(172, 172, 172, 0.2);
+}
+
+#modificar:hover{
+	-webkit-transform : scale(.93);
+    -webkit-transition: .5s ease;
+    background-color: rgba(172, 172, 172, 0.2);
+
+}
+
+#citas:hover{
+	-webkit-transform : scale(.93);
+    -webkit-transition: .5s ease;
+    background-color: rgba(172, 172, 172, 0.2);
+
+}
+#vcitas:hover{
+    -webkit-transform : scale(.93);
+    -webkit-transition: .5s ease;
+    background-color: rgba(172, 172, 172, 0.2);
+
+}
+
+#vcitas{
+    width:30%;
+height:50%; 
+margin-left: auto;
+margin-right: auto;
+display: inline-block;
+background-color: #f7f7f7;
+-webkit-text-fill-color: #acacac;
+border: 0px;
+transition: .5s ease;
+
+}
+#vcitas span{
+    font-size: 100px
+    
+}
+.btn1{
+    margin-top: 30px;
+}

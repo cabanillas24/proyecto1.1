@@ -1,0 +1,83 @@
+header nav {			/*CLASE PARA LA BARRA DE NAVEGACION*/
+	background:rgba(128, 0, 128, .8);
+	margin-bottom:30px;
+	height: 70px;
+	padding:17px;
+}
+
+
+.bottonh{		/*CLASE PARA LOS BOTONES DE LA BARRA DE NAVEGACION*/
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    -webkit-text-fill-color: white;
+    font-family: gothic;
+}
+.logout{      /*CLASE PARA EL BOTON LOGIN DE LA BARRA DE NAVEGACION*/
+    padding: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    -webkit-text-fill-color: white;
+    font-family: gothic;
+    float: right;
+}
+.logo{		/*CLASE PARA EL LOGO DE LA BARRA DE NAVEGACION*/
+	width: 50px;
+}
+.final{
+    background: #202020 !important;
+    border-radius: 0px !important;
+}
+@font-face{
+    font-family: gothic;
+    src: url(../css/GOTHIC.ttf);
+}                               /*CLASE PARA LA FUENTE*/
+.fontf{                 
+    font-family: gothic;
+}
+
+.des { 
+    animation: des 0.5s linear forwards; 
+ 
+} 
+@-webkit-keyframes des { 
+    0% { opacity: 0; } 
+    100% { opacity: 1; } 
+}
+
+.alin{
+    margin-top: 30px;
+    margin-left:27px;
+}
+
+.alin2{
+    margin-top: 50px !important;
+    margin-left:43px;
+}
+.alin3{
+    margin-top: 50px !important;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.zoom{
+    transition: 1s ease;
+}
+
+.zoom:hover{
+    -webkit-transform : scale(1.03);
+    -webkit-transition: .5s ease;
+}
+
+.container{
+    margin-left: 30% !important;
+}
+.mid{                                   /*CLASE PARA PERSONALIZAR EL CONTAINER*/
+    background-color: #e5e5e5 !important;
+    border-radius: 20px;
+    width: 40% !important;
+    margin-top: 50px;
+}
+

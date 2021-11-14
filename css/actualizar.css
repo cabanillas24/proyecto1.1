@@ -1,0 +1,67 @@
+@font-face{
+  font-family: gothic;
+  src: url(../css/GOTHIC.ttf);
+}
+body{
+	font-family: gothic, serif;
+	color:black;
+	color-background:white;
+	font-size: 1.2rem;
+	line-height: 1.4em;
+	margin: 0;
+}
+/*navbar*/
+/*navbar*/
+header nav {
+	background:rgba(128, 0, 128, .8);
+	margin-bottom:50px;
+	height: 70px;
+	padding:17px;
+}
+.logo{
+	width: 50px;
+	float: left;
+}
+.login{
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    -webkit-text-fill-color: white;
+    font-family: gothic;
+    float: right;
+}
+.bottonh{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    -webkit-text-fill-color: white;
+    font-family: gothic;
+}
+
+#container{
+width: 85%;
+background-color: #E0E0E0;
+border-radius: 20px;
+
+
+}
+
+#datos {
+	margin:0px auto;
+
+}
+.name{
+	padding-right: 30%;
+}
+
+/*barra finl*/
+
+.final{
+	background: #202020 !important;
+	border-radius: 0px !important;
+}
+input{
+	text-align: center;
+}

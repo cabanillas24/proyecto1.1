@@ -1,0 +1,138 @@
+@font-face{
+	font-family: gothic;
+	src: url(../css/GOTHIC.ttf);
+}								/*CLASE PARA LA FUENTE*/
+.fontf{					
+	font-family: gothic;
+}
+header nav {			/*CLASE PARA LA BARRA DE NAVEGACION*/
+	background: rgba(128, 0, 128, .8);
+	margin-bottom:30px;
+	height: 70px;
+	padding:17px;
+}
+
+
+.bottonh{		/*CLASE PARA LOS BOTONES DE LA BARRA DE NAVEGACION*/
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    -webkit-text-fill-color: white;
+    font-family: gothic;
+}
+.logout{      /*CLASE PARA EL BOTON LOGIN DE LA BARRA DE NAVEGACION*/
+    padding: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    -webkit-text-fill-color: white;
+    font-family: gothic;
+    float: right;
+}
+.logo{		/*CLASE PARA EL LOGO DE LA BARRA DE NAVEGACION*/
+	width: 50px;
+}
+.final{
+	background: #202020 !important;
+	border-radius: 0px !important;
+    margin-top: 550px;
+}
+
+.H{
+    border-radius: 20px;
+    -webkit-transform : scale(1.5);
+    margin-top: 90px;
+    margin-left: 16.8%;
+    width: 60%;
+
+}
+.Poss{
+    margin-top: 110px;
+    background-color: #26BBFF;
+    width: 350px;
+    text-align: center;
+
+}
+
+.Poss1{
+    margin-top: 110px;
+    background-color: #26BBFF;
+    width: 350px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.H1{           
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 300;
+    font-size: 27px;
+    color: #26BBFF;
+    border-radius: 10px;
+    float: left;
+    -webkit-text-fill-color: white;
+    font-family: gothic;
+    height: 200px;
+    font-size: 40px;
+    height: 380px;
+    border-radius: 20px;
+}
+.H1:hover{
+    background-color: rgba(39, 162, 219,1.3);
+    text-decoration: none;
+
+}
+
+.i1{
+    -webkit-transform : scale(0.2);
+    margin-top: 10px;
+}
+
+.button-container{
+position:relative;
+}
+
+.button-container a{
+    position: absolute;
+    bottom:4em;
+    right:4em;
+    background-color: rgba(128, 0, 128, .3);
+    border-radius:10px;
+    color:white;
+    text-transform:uppercase;
+    padding:1em 1.5em;
+    margin-right: 330px;
+    transition: 1s ease;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 0.5px white;
+}
+
+.button-container a:hover{
+    -webkit-text-fill-color: white;
+    -webkit-transform : scale(1.1);
+    -webkit-transition: 1s ease;
+    -webkit-text-stroke: 1px white;
+    text-decoration: none;
+}
+
+.md{
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+}
+.md1{
+    height: 300px;
+    width: 200px;
+    margin-top: 20px;
+    -webkit-transform : scale(0.8);
+}
+.container1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: -40px;
+}

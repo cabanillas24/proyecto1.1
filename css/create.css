@@ -1,0 +1,155 @@
+.consultation{
+	text-align: center;
+    height: 30px;
+}						/*CLASES PARA LA CONSULTA*/
+.title1{
+	font-size: 50px;
+}
+
+
+.mid{									/*CLASE PARA PERSONALIZAR EL CONTAINER*/
+	background-color: #e5e5e5 !important;
+	border-radius: 20px;
+	width: 40% !important;
+}
+
+
+@font-face{
+	font-family: gothic;
+	src: url(../css/GOTHIC.ttf);
+}								/*CLASE PARA LA FUENTE*/
+.fontf{					
+	font-family: gothic;
+}
+
+
+.form-control{							/*CLASE PARA LA ENTRADA DE TEXTO*/
+    font-size: inherit;
+    font-family: inherit;
+    color: rgba(0,0,0,.8);
+    line-height: normal;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    margin: 8px 0 4px;
+    resize: none;
+    overflow: hidden;
+}
+
+
+.title2{			
+	font-size: 27px;
+	margin-bottom:20px;
+}
+
+ 
+header nav {			/*CLASE PARA LA BARRA DE NAVEGACION*/
+	background:rgba(128, 0, 128, .8);
+	margin-bottom:30px;
+	height: 70px;
+	padding:17px;
+}
+
+
+.bottonh{		/*CLASE PARA LOS BOTONES DE LA BARRA DE NAVEGACION*/
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    -webkit-text-fill-color: white;
+    font-family: gothic;
+}
+.logout{      /*CLASE PARA EL BOTON LOGIN DE LA BARRA DE NAVEGACION*/
+    padding: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    -webkit-text-fill-color: white;
+    font-family: gothic;
+    float: right;
+}
+.logo{		/*CLASE PARA EL LOGO DE LA BARRA DE NAVEGACION*/
+	width: 50px;
+}
+
+
+.botton1{				/*CLASE PARA EL BOTON DE ATRAS*/
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 300;
+    font-size: 27px;
+    color: #f7f7f7;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    float: left;
+    -webkit-text-fill-color: black;
+    font-family: gothic;
+}
+.botton1:hover{
+    background-color: #c4c4c4;
+    text-decoration: none;
+}
+
+
+.botton2{				/*CLASE PARA EL BOTON DE CREAR CITA*/
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 300;
+    font-size: 27px;
+    color: #f7f7f7;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    float: right;
+    -webkit-text-fill-color: black;
+    font-family: gothic;
+}
+.botton2:hover{
+    background-color: rgba(49, 209, 15, 0.6);
+    text-decoration: none;
+}
+
+
+
+.fecha{									/*CLASE PARA PERSONALIZAR LOS DATOS DE ENTRADA DE LA FECHA Y HORA*/
+	background-color: #e5e5e5  !important;
+	font-size: 60px;
+	border: 0px;
+}
+
+
+.form-group{		/*CLASES PARA CENTRAR LAS ENTRADAS DE LA FECHA Y HORA*/
+	margin-left: 17%;
+}
+.form-group1{
+	margin-left: 28%;
+}
+
+
+select option{		/*PARA QUE TODOS LOS NUMEROS SE MIREN CHICOS AL SELECCIONARLOS*/
+	font-size: 15px;
+	font-family: gothic;
+}
+
+
+.iddoc{				/*CLASE PARA CENTRAR LA ENTRADA DEL ID DEL DOCTOR*/
+	padding-left: 47%;
+}
+
+
+.final{
+	background: #202020 !important;
+	border-radius: 0px !important;
+}
+.doc{
+    font-size: 20px;
+}
+.docf{
+    font-size: 10px;
+}
+.error{
+    color:red;
+}
