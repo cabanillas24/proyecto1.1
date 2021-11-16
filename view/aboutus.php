@@ -15,7 +15,7 @@
 	<header>
       <nav>
         <ul>
-          <img src="../imagenes/....png" class="logo">
+          <img src="../imagenes/cc.png" class="logo">
           <a href="../index.php" class="bottonh">Home</a>
           <a href="create_appointment.php" class="bottonh">Query</a>
           <a href="aboutus.php" class="bottonh">About us</a>
@@ -49,13 +49,13 @@
                                 <!-- The slideshow -->
                                 <div class="carousel-inner">
                                   <div class="carousel-item active">
-                                    <img src="../imagenes/clinica1.jpg" alt="Clinica 1" >
+                                    <img src="../imagenes/gh.jpg" alt="Clinica 1" >
                                   </div>
                                   <div class="carousel-item">
-                                    <img src="../imagenes/clinica2.jpg" alt="Clinica 3" >
+                                    <img src="../imagenes/ghg.jpg" alt="Clinica 3" >
                                   </div>
                                   <div class="carousel-item">
-                                    <img src="../imagenes/clinica3.jpg" alt="clinica 4">
+                                    <img src="../imagenes/as.jpg" alt="clinica 4">
                                   </div>
                                 </div>
                                 
@@ -74,7 +74,7 @@
                                     <br>
                                     <br>
                             <h2>Contact us</h2>
-                           <p>TEl 54456958</p>
+                           <p>TEl 5434534</p>
                 
           </div>
            <div class="col-6">
@@ -101,8 +101,8 @@
     </div>
 
     <div class="jumbotron text-center final" style="margin-bottom:0"><!--BARRA INFERIOR-->
-    <img src="../imagenes/LogoAppWeb.png" class="logo">
-    <p style="-webkit-text-fill-color: white;font-size: 12px;">Copyright © 2021. Derechos asociados y reservados por la clínica S.A de C.V.</p>
+    <img src="../imagenes/cc.png" class="logo">
+    <p style="-webkit-text-fill-color: white;font-size: 12px;">Copyright © 2021 Axolotl Developers. Derechos asociados y reservados por la clínica Chacón S.A de C.V.</p>
   </div>
 
 

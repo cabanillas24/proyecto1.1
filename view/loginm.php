@@ -15,7 +15,7 @@
 <header>
       <nav class="barra">
         <ul>
-          <img src="../imagenes/....png" class="logo">
+          <img src="../imagenes/cc.png" class="logo">
           <a href="../index.php" class="bottonh">Home</a>
           <a href="create_appointment.php" class="bottonh">Query</a>
           <a href="aboutus.php" class="bottonh">About us</a>
@@ -48,8 +48,8 @@
 <br>
 <br>
 	<div class="jumbotron text-center final" style="margin-bottom:0">
-		<img src="../imagenes/LogoAppWeb.png" class="logo">
-		<p style="-webkit-text-fill-color: white;font-size: 12px;">Copyright © 2021. Derechos asociados y reservados por la clínica S.A de C.V.</p>
+		<img src="../imagenes/cc.png" class="logo">
+		<p style="-webkit-text-fill-color: white;font-size: 12px;">Copyright © 2021 Axolotl Developers. Derechos asociados y reservados por la clínica Chacón S.A de C.V.</p>
 	</div>
 
 
